@@ -750,7 +750,7 @@ span {
 }
 
 .contact-form-text {
-  /* display: block; */
+  display: block;
   font-family: Roboto;
   font-size: 12px;
   line-height: 1.16;
@@ -788,6 +788,13 @@ span {
   border-radius: 4px;
   color: var(--header-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  color: rgba(117, 117, 117, 0.5);
+
+  /* font-family: Roboto; */
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.12px;
 }
 
 .contact-form-comment:focus {
@@ -808,6 +815,7 @@ span {
 .contact-form-checkbox-label {
   display: flex;
   align-items: center;
+
   margin-top: 20px;
   font-family: Roboto;
   font-size: 14px;
@@ -823,6 +831,7 @@ span {
   width: 16px;
   height: 15px;
   margin-right: 8px;
+  margin-left: 12px;
   border: 2px solid var(--header-color);
   content: '';
   cursor: pointer;
@@ -835,7 +844,7 @@ span {
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
-  background-image: url(/images/Vector.png);
+  background-image: url(../images/vector-1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
